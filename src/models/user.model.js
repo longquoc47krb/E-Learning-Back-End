@@ -47,7 +47,7 @@ const userSchema = mongoose.Schema(
     },
     avatar: {
       type: String,
-      default: "https://i.imgur.com/tJOSejv.png"
+      default: null
     }
   },
   {
